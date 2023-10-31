@@ -4,20 +4,19 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import img from '../images/Group 57.png'
-import img1 from '../images/Group 177.png'
+
 
 function Footer() {
   return (
     
-    <div className="bg-violet-950  w-full h-full flex md:flex-row flex-col justify-around items-start p-20  ">
+    <div className="bg-violet-950  w-full flex md:flex-row flex-col justify-around items-start p-20  ">
       <div className='container mx-auto flex flex-col md:flex-row items-center justify-between'>
         <div className='p-5  w-full md:w-1/5 '>
             <div className=' text-white  '>
                     <a href='https://www.esummit.in/'>
                       <img
                       className='ml-20'
-                        src={img1}
+                        src='/Group 177.png'
                         alt='logo'
                         height='auto'
                         width='90%'
@@ -25,22 +24,22 @@ function Footer() {
                     </a>
             </div>
             
-            <div className="    my-12">
-                <p className=' text-white  font-bold text-opacity-75'>EMAIL</p>
+            <div className="    my-12 ml-20">
+                <p className=' text-white  font-bold text-opacity-75 ml-6'>EMAIL</p>
             </div>
-            <div>
-              <a  className='ml-20 text-white text-opacity-75 ' href='#'>esummit@iitr.ac.in</a>
+            <div className='ml-20'>
+              <a  className='ml-6 text-white text-opacity-75 ' href='#'>esummit@iitr.ac.in</a>
             </div>
             <div></div>
             <br></br>
             <br></br>
             
            
-            <div className='font-bold  text-white text-opacity-75 '>
-                <p className='ml-20'>FOLLOW US AT</p>
+            <div className='font-bold  text-white text-opacity-75 ml-20 '>
+                <p className='ml-6'>FOLLOW US AT</p>
             </div>
             <div className='flex flex-row text-purple-700 gap-6 pb-5 ml-20 my-5 '>
-            <div className='iconFacebook_footer '>
+            <div className='iconFacebook_footer ml-6'>
               <a href='https://www.facebook.com/ecelliitr/?mibextid=ZbWKwL'>
                 <FacebookIcon/>
               </a>
@@ -78,7 +77,7 @@ function Footer() {
           
           
           <div className=' text-white text-opacity-75 ml-20 my-2'>
-            View our team
+           <p className='ml-6'> View our team</p>
           </div>
     
 
@@ -88,7 +87,7 @@ function Footer() {
                     <a href='https://www.esummit.in/'>
                       <img
                       className='ml-20'
-                        src={img}
+                        src='/Group 57.png'
                         alt='logo'
                         height='auto'
                         width='90%'
@@ -97,30 +96,30 @@ function Footer() {
                     </a>
             </div>
             
-            <div className='font-bold text-white text-opacity-75 my-10 '>
-               <p className='ml-1'> PHONE</p>
+            <div className='font-bold text-white text-opacity-75 my-10 ml-12'>
+               <p className='ml-8'> PHONE</p>
             </div>       
-            <div className='text-white text-opacity-75 ml-24'>
-              <p className='ml-5'>Vinyas: +91 9876556789</p>
-              <p className='ml-6'>Sharma: +91 9876556789</p>
+            <div className='text-white text-opacity-75 ml-20'>
+              <p className='ml-1'>Vinyas: +91 9876556789</p>
+              <p className='ml-1'>Sharma: +91 9876556789</p>
             </div>
             <br></br>
             <br></br>
-            <div className='font-bold text-white text-opacity-75 ml-19'>
-                <p className='ml-8'>OUR ADDRESS</p>
+            <div className='font-bold text-white text-opacity-75 ml-20'>
+                <p className='ml-1'>OUR ADDRESS</p>
             </div>
-            <div className='text-white text-opacity-75 ml-24'>
-             <p className='ml-4'>E-cell Office,SAC Building</p>
+            <div className='text-white text-opacity-75 ml-20'>
+             <p className='ml-1'>E-cell Office,SAC Building</p>
              </div>
-             <div className='text-white text-opacity-75 ml-5'>
-             <p className=''>IIT ROORKEE</p>
+             <div className='text-white text-opacity-75 ml-20'>
+             <p className='ml-1'>IIT ROORKEE</p>
              </div>
-             <div className='text-white text-opacity-75 ml-24'>
-            <p className='ml-2'> Roorkee,Uttarakhandd - 247667</p>
+             <div className='text-white text-opacity-75 ml-20'>
+            <p className='ml-1'> Roorkee,Uttarakhandd - 247667</p>
             </div>
             <br></br>
-            <div className='text-white text-opacity-75 ml-24 my-5'>
-                <p className='ml-4'>E-Summit 2024 IIT Roorkee</p>
+            <div className='text-white text-opacity-75 ml-20 my-5'>
+                <p className='ml-1'>E-Summit 2024 IIT Roorkee</p>
             </div>
     
 

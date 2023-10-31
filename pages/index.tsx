@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Theme from '@/components/theme'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -9,9 +10,10 @@ export default function Home() {
     <>
       <div className="bg bg-cover bg-blur h-screen min-w-screen bg-center "
         style={{ backgroundImage: "url('/bg.png')" }}>
-          <Navbar/>
+        <Navbar/>
 
       </div>
+      <Footer></Footer>
      
     </>
   );
