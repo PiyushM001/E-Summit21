@@ -1,16 +1,16 @@
 export default function EventCard() {
     return (
       <>
-        <div className="event-card-div ">
+        <div className="event-card-div relative w-[20vw] h-[27vw] overflow-hidden">
           <img className="event-card-img" src={'/images/Rectangle 136.svg'} />
-          <img className="event-card-img-footer" src={'/images/Rectangle 218.svg'} />
-          <div className="event-card-overlay-img">
+          <img className=" absolute bottom-0 left-0" src={'/images/Rectangle 218.svg'} />
+          <div className="event-card-overlay-img absolute top-0 left-0 w-[20vw] ">
             {" "}
             <img src={'/images/Rectangle 239.svg'} />{" "}
           </div>
           <div className="event-card-animation-div flex justify-center items-center">
             <img className="event-card-animation-img" src={'/images/Rectangle 227 (1).svg'} />
-            <h1>IDEASTORM</h1>
+            <h1 className="absolute bottom-[1vw] left-[3vw] text-white text-[1.5vw] font-bold z-1">IDEASTORM</h1>
             <p>
               E-Summit being the flagship event of ECell, is held annually brings
               together the academic community, venture capitalists, new age
