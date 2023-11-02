@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import Theme from '@/components/theme'
-
+import Scores from '@/components/scores'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -17,6 +17,7 @@ export default function Home() {
 
       </div>
       <Theme />
+      <Scores/>
    <Events/>
   <Footer/>
      
