@@ -47,11 +47,12 @@
   .theme-image-div0 {
     width: 45vw;
   }
-  .theme-img {
+  .theme-img.aos-animate {
     margin: 1vw;
     object-fit: none;
     animation: resizeAnimation 2s linear forwards;
   }
+  
   @keyframes resizeAnimation {
     0% {
       width: 0px;
