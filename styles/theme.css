@@ -1,3 +1,70 @@
-h1{
-    color: red;
-}
+.theme-main-div {
+    height: 40vw;
+    background-color: #19072c;
+  }
+  .theme-text-div {
+    width: 40vw;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: proxima;
+  }
+  .theme-image-div {
+    position: relative;
+    width: auto;
+  
+    display: inline-block;
+    min-width: 9vw;
+    min-height: 9vw;
+    z-index: 3;
+  }
+  .theme {
+    font-size: 40px;
+  }
+  .wave-patern-theme {
+    position: absolute;
+    top: 20vw;
+    left: 0;
+    z-index: 1;
+  }
+  .theme-img {
+    width: 5vw;
+    display: block;
+  }
+  
+  .theme-img-2 {
+    width: 9vw;
+    position: absolute;
+    right: 0%;
+    z-index: 3;
+  }
+  .theme-img-3 {
+    width: 9vw;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+  }
+  
+  .theme-image-div0 {
+    width: 45vw;
+  }
+  .theme-img.aos-animate {
+    margin: 1vw;
+    object-fit: none;
+    animation: resizeAnimation 2s linear forwards;
+  }
+  
+  @keyframes resizeAnimation {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+    50% {
+      width: 0px;
+      height: 26vw;
+    }
+    100% {
+      width: 40vw;
+      height: 26vw;
+    }
+  }
+  
