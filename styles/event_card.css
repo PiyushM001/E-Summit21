@@ -1,0 +1,67 @@
+
+  
+ 
+  .event-card-div h1 {
+    position: absolute;
+    bottom: 1vw;
+    color: white;
+    left: 3vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    z-index: 1;
+  }
+  .event-card-animation-img {
+    transition: all 0.5s ease;
+ 
+  }
+  .event-card-animation-div {
+    transition: all 0.5s ease;
+  }
+  .event-card-animation-div h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 3;
+    font-size: 1.5vw;
+    margin-left:2vw;
+    margin-top: 2vw;
+  }
+  
+  .event-card-animation-button {
+    
+    transition: all 0.5s ease;
+    }
+  .event-card-animation-button2 {
+   
+      transition: all 0.5s ease;
+  
+    }
+    
+  .event-card-overlay-img:hover + .event-card-animation-div {
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+  }
+  
+  .event-card-animation-div:hover {
+    transform: translateY(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .event-card-animation-button:hover + .event-card-animation-button2 {
+    z-index: 5;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+    }
+  .event-card-animation-div h2:hover + .event-card-animation-button2 {
+      z-index: 5;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    
+      }
+      .event-card-animation-div h2:hover{
+          color: #5300BF;
+          cursor: pointer;
+  
+      }
