@@ -27,7 +27,7 @@ export default function EventCard() {
           <h1 className="absolute bottom-[1vw] left-[3vw] text-white text-[1.5vw] font-bold z-[1]">
             IDEASTORM
           </h1>
-          <p className="absolute top-[3vw] left-0 text-white m-[2vw] z-[3] text-[1vw] ">
+          <p className="absolute top-[3vw] left-0 text-white m-[2vw] z-[3] text-[1.1vw] font-proxima">
             E-Summit being the flagship event of ECell, is held annually brings
             together the academic community, venture capitalists, new age
             entrepreneurs and all those passionate about entrepreneurship to
