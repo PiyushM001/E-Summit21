@@ -8,7 +8,6 @@ export default function EventCard() {
           src={"/images/Rectangle 218.svg"}
         />
         <div className="event-card-overlay-img absolute top-0 left-0 w-[20vw] ">
-          {" "}
           <img src={"/images/Rectangle 239.svg"} />{" "}
         </div>
 

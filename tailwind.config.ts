@@ -15,9 +15,10 @@ const config: Config = {
       },
       screens: {
         xs: { max: "350px" },
-        sm: { max: "600px", min: "350px" },
-        mid: { max: "1000px", min: "600px" },
-        l: { min: "1000px" },
+        sm: { max: "750px", min: "350px" },
+        mid: { max: "1200px", min: "750px" },
+        l:{ max: "1400px", min: "1200px"},
+        el: { min: "1400px" },
       },
       fontFamily: {
         proxima: ["Proxima Nova", "sans"],

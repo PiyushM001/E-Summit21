@@ -1,5 +1,16 @@
-import React from 'react';
+import React,{useState} from 'react';
+import MenuIcon from "@mui/icons-material/Menu";
+import IconButton from "@mui/material/IconButton";
+import Drawer from "@mui/material/Drawer";
+import Leftheader from "./Leftheader"
 function Navbar(){
+    const [dropen, setDropen] = useState(false);
+      const handleopen = () => {
+        setDropen(true);
+      };
+      const handledrclose = () => {
+        setDropen(false);
+      };
 return (
   <>
     <div
@@ -7,10 +18,19 @@ return (
       style={{ backgroundImage: "url('/bg.jpg')" }}
     >
       <div className="h-[10vh] p-6 text-white">
-        <div className="flex justify-between items-center mx-auto ">
-          <div className="pl-24 sm:pl-8 xs:pl-4 space-x-14 flex ">
-            <img src="/logoo.png" className="" />
-            <div className="text-white flex space-x-14 font-bold items-center py-2">
+        <IconButton
+          className="l:hidden el:hidden left-16 absolute top-7 xs:left-4 sm:left-10"
+          onClick={handleopen}
+        >
+          <MenuIcon style={{ color: "#fff" }} />
+        </IconButton>
+        <Drawer open={dropen} onClose={handledrclose}>
+          <Leftheader Logclose={handledrclose} />
+        </Drawer>
+        <div className=" flex  justify-between items-center mx-auto ">
+          <div className=" mid:hidden sm:hidden xs:hidden pl-16 l:pl-8 sm:pl-8 xs:pl-4 space-x-8 l:space-x-4 flex ">
+            <img src="/logoo.png" alt="" className="w-36 h-12" />
+            <div className="nav-subitem text-white flex space-x-12 l:space-x-6 font-bold items-center py-2">
               <a
                 href=""
                 className="hover:text-purple-500 hover:underline hover:py-2"
@@ -37,15 +57,22 @@ return (
               </a>
             </div>
           </div>
-          <div className="text-white flex space-x-7 pr-24 sm:pr-8 xs:pr-4">
+          <div className="text-white mid:absolute xs:absolute sm:absolute mid:right-10 top-9 xs:right-6 sm:right-6 flex space-x-3 l:pr-16 el:pr-16 ">
             <a href="" className="hover:text-purple-500 hover:underline">
-              LOG IN
+              LOGIN
             </a>
-            <a href="">or</a>
-            <button>
-              <a href="" className="hover:text-purple-500 hover:underline">
-                REGISTER
-              </a>
+            <a href="" className="">
+              or
+            </a>
+            <button
+              className="text-purple-500 bg-white h-[3vh]"
+              style={{
+                clipPath:
+                  "polygon(8% 0, 100% 0, 100% 65%, 92% 100%, 0 100%, 0 33%)",
+                width: "50%",
+              }}
+            >
+              REGISTER
             </button>
           </div>
         </div>
