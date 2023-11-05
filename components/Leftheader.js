@@ -5,10 +5,14 @@ return (
   <>
     <div
       className=" h-[100vh] ease-in-out duration-300"
-      style={{ background: "rgba(83, 29, 163, 1)",width:"250px" }}
+      style={{ background: "rgb(26,12,44)", width: "250px" }}
     >
       <ul className="space-y-4 mt-10 ml-5" onClick={() => Logclose()}>
         <li className="flex items-center ">
+          <img src="/logoo.png" className=" " alt="" />
+        </li>
+        <Divider className="bg-white mr-5" />
+        <li className=" ">
           <a href="" className="text-white text-2xl font-bold">
             HOME
           </a>
@@ -45,6 +49,24 @@ return (
         </li>
 
         <Divider className="bg-white mr-5" />
+        <li className="l:hidden el:hidden sm:hidden mid:hidden ">
+          <a
+            href=""
+            className="text-white text-2xl font-bold  sm:hidden mid:hidden "
+          >
+            LOGIN
+          </a>
+        </li>
+        <Divider className="bg-white mr-5  sm:hidden mid:hidden" />
+        <li className=" sm:hidden mid:hidden ">
+          <a
+            href=""
+            className="text-white text-2xl font-bold sm:hidden mid:hidden "
+          >
+            REGISTER
+          </a>
+        </li>
+        <Divider className="bg-white mr-5 sm:hidden mid:hidden" />
       </ul>
     </div>
   </>

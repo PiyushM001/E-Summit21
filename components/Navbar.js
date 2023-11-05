@@ -57,7 +57,7 @@ return (
               </a>
             </div>
           </div>
-          <div className="text-white mid:absolute xs:absolute sm:absolute mid:right-10 top-9 xs:right-6 sm:right-6 flex space-x-3 l:pr-16 el:pr-16 ">
+          <div className="text-white xs:hidden mid:absolute sm:absolute mid:right-10 top-9  sm:right-6 flex space-x-3 l:pr-16 el:pr-16 ">
             <a href="" className="hover:text-purple-500 hover:underline">
               LOGIN
             </a>
